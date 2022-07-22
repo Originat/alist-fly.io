@@ -11,7 +11,7 @@
 ## 如何部署
 
 1. 先到 [Fly.io](https://fly.io/) 注册账号，***注意：注册时要记得绑定信用卡，银联的就行***
-2. 创建 fly 应用程序（app）：`fly launch`
+2. 创建 fly 应用程序（app）：`fly launch`  （选择 (ams) Amsterdam,Netherlands）
 3. 创建 fly 卷（volume）：`flyctl volumes create data --region ams --size 1`
 
 4. Fork 此项目后，选择 Settings -> Secrets -> Actions 中增加`FLY_API_TOKEN`、`APP_NAME`安全字段
