@@ -14,7 +14,7 @@
 2. 创建 fly 应用程序（app）：`fly launch`
 3. 创建 fly 卷（volume）：`flyctl volumes create data --region ams --size 1`
 
-4. 项目中，选择 Settings -> Secrets -> Actions 中增加`FLY_API_TOKEN`、`APP_NAME`安全字段
+4. Fork 此项目后，选择 Settings -> Secrets -> Actions 中增加`FLY_API_TOKEN`、`APP_NAME`安全字段
 
 * FLY_API_TOKEN - Fly API 接口 Token 值，可访问 <https://web.fly.io/user/personal_access_tokens> 或在本地执行`flyctl auth token`查看
 * APP_NAME - 应用名称，注意此名称全局唯一
