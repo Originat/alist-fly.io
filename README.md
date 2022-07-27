@@ -6,7 +6,7 @@
 
 ## 概述
 
-在 [Fly.io](https://fly.io) 部署 [Alist](https://github.com/Xhofe/alist) 特点：彻底摆脱ban权限zhi（荷兰🇳🇱，阿姆斯特丹），自带cdn，本项目已设置数据库类型为`sqlite3`，已优化重新部署时，数据清空的情况。
+在 [Fly.io](https://fly.io) 部署 [Alist](https://github.com/Xhofe/alist) 特点：彻底摆脱ban权限zhi（荷兰🇳🇱，阿姆斯特丹），自带cdn，本项目已设置数据库类型为`sqlite3`，优化在项目不删除的情况下重新部署时，保留之前的数据。
 
 ## 如何部署
 
